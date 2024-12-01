@@ -1,0 +1,79 @@
+#team-section{
+    padding: 60px 0;
+}
+
+#team-title{
+    color: #007bff;
+    font: 900 40px "Work Sans";
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.container-parag{
+    font: 300 20px "Work Sans";
+    line-height: 1.7;
+    color: gray;
+    margin: 16px 0;
+    text-align: center;
+}
+
+.all-people{
+    display: flex;
+    gap: 25px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.person-card {
+    position: relative;
+}
+
+
+.person-card img {
+    width: 230px;
+    height: 255px;
+    object-fit: cover;
+}
+
+.sidebar {
+    visibility: hidden; 
+    width: 35px;
+    height: 255px;
+    position: absolute; 
+    top: 0;
+    left: 0;
+    background: #007bff;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+    gap: 20px;
+    font-size: 14px;
+}
+
+.sidebar .fa-brands {
+    cursor: pointer;
+}
+
+.person-card:hover .sidebar {
+    visibility: visible; 
+}
+
+
+.desc{
+    padding: 15px;
+}
+
+.desc h3{
+    font: 400 19px "Work Sans";
+    color: #000;
+}
+
+.desc p {
+    color: #cccccc;
+    text-transform: uppercase;
+    font: 400 12px "Work Sans";
+    letter-spacing: 0.8px;
+    line-height: 1.7;
+}

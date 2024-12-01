@@ -1,0 +1,78 @@
+#about-section{
+    padding: 60px 0;
+}
+
+#about-title {
+    color: #007bff;
+    font: 900 40px "Work Sans";
+    text-align: center;
+}
+
+.about-container{
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+}
+
+.about-container img {
+    width: 490px;
+    height: auto;
+    object-fit: cover;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 100%;
+}
+
+.about-content h3 {
+    font: 400 28px "Work Sans";
+    color: #000;
+}
+
+
+.about-content p {
+    font:400 16px "Work Sans" ;
+    line-height: 1.7;
+    color: gray;
+    margin: 15px 0 20px 0;
+}
+
+.checked-list li{
+    position: relative;
+    padding-left: 30px; 
+    margin-bottom: 20px; 
+    line-height: 1.5;
+    color: gray;
+    font: 400 16px "Work Sans";
+}
+
+.checked-list li::before {
+    content: "✔";
+    position: absolute;
+    left: 0;
+    color: #4caf50; 
+    font-size: 18px;
+  }
+
+  .about-content button {
+    align-self: flex-start;
+    text-transform: capitalize;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    outline: none;
+    font: 400 16px "Work Sans";
+    border-radius: 30px;
+    padding: 10px 30px;
+    line-height: 1.5;
+    cursor: pointer;
+}
+
+.about-content button:hover {
+    background: #000;
+    color: #fff
+}

@@ -1,0 +1,86 @@
+*{
+    font-family: "Work Sans";
+    box-sizing: border-box !important;
+}
+
+header {
+  background: linear-gradient(#1313136e,#1313136e), url("../assets/hero_1.jpg") center/cover;
+  height: 100vh;
+
+}
+
+.header-area{
+    height: 86px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    display: flex;
+    align-items: center;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#logo{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 900;
+    font: 900 30px "Work Sans";
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+nav ul li > a{
+    color: rgba(255, 255, 255, 0.7) !important;
+    font: 400 15px "Work Sans";
+    text-transform: capitalize;
+    transition: .3s all ease;
+}
+
+nav ul li > a:hover{
+    color: #fff !important;    
+}
+
+nav ul li > a > i{
+    font-size: 11px;
+}
+
+.active{
+	color: #fff !important;
+}
+
+.header-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+    background: transparent;
+}
+
+.header-content h1 {
+    font: 900 48px "Work sans";
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 48px;
+}
+.header-content button {
+    background: #007bff;
+    color: #fff;
+    font: 500 16px "Work sans";
+    border-radius: 30px;
+    padding: 10px 30px;
+    outline: none;
+    border: 0;
+    cursor: pointer;
+}
+
+.header-content button:hover {
+    background: #000;
+}
