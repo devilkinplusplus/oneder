@@ -1,0 +1,57 @@
+#banner-section{
+ padding: 60px 0;   
+}
+
+.all-banners{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.right img{
+    height: 340px;
+    width: 450px;
+    border-radius: 3px;
+}
+
+.left{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.left .banner-card {
+    padding: 30px 10px;
+}
+
+.banner-card h3{
+    font: 400 16px "Work Sans";
+    color: #000;
+    line-height: 1.2;
+    margin-bottom: 8px;
+}
+
+.banner-card p {
+    font: 400 13px "Work Sans";
+    line-height: 1.7;
+    color: gray;
+    margin-bottom: 16px;
+}
+
+.banner-card i {
+    font-size: 40px;
+    color: #007bff;
+    margin-bottom: 12px;
+}
+
+.banner-card a {
+    font: 400 14px "Work Sans";
+    line-height: 1.7;
+    color: #007bff;
+    line-height: 1.7;
+    transition: .3s all ease;
+}
+
+.banner-card a:hover {
+    color: #0056b3;
+}

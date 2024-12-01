@@ -1,0 +1,49 @@
+#service-section{
+    padding: 60px 0;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #dee2e6;
+}
+
+
+.all-services{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.service-card {
+    padding: 40px 10px;
+}
+
+.service-card h3{
+    font: 400 20px "Work Sans";
+    color: #000;
+    line-height: 1.2;
+    margin-bottom: 8px;
+}
+
+.service-card p {
+    font: 400 15px "Work Sans";
+    line-height: 1.7;
+    color: gray;
+    margin-bottom: 16px;
+}
+
+.service-card i {
+    font-size: 48px;
+    color: #007bff;
+    margin-bottom: 12px;
+}
+
+.service-card a {
+    font: 400 16px "Work Sans";
+    line-height: 1.7;
+    color: #007bff;
+    line-height: 1.7;
+    transition: .3s all ease;
+}
+
+.service-card a:hover {
+    color: #0056b3;
+}
+

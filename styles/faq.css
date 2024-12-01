@@ -1,0 +1,33 @@
+#faq-section{
+    padding: 60px 0;
+    background-color: #f8f9fa;
+}
+
+.all-questions{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.question {
+    width: 48%;
+    padding: 20px 0;
+}
+
+.question h3{
+    font: 400 17px "Work Sans";
+    color: #000;
+    line-height: 1.2;
+    margin-bottom: 20px !important;
+}
+
+.question p {
+    font: 400 14px "Work Sans";
+    margin-bottom: 16px;
+    line-height: 1.7;
+    color: gray;
+}
+
+.margin-bottom{
+    margin-bottom: 60px;
+}

@@ -1,0 +1,80 @@
+footer{
+    padding: 80px 0 100px 0;
+    background: #333333;
+    color: #737373;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.footer-card{
+    width: 25%;
+}
+
+.footer-card h3 {
+    color: #fff;
+    margin-bottom: 12px;
+}
+
+.footer-card p {
+    font: 400 14px "Work Sans";
+    line-height: 1.7;
+}
+
+.footer-card ul li {
+    margin: 16px 0;
+
+}
+
+.footer-card ul li > a{
+    color: #737373;
+    text-transform: capitalize;
+    transition: all 0.4s ease;
+}
+
+.social-links{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-card ul li > a:hover,.social-links i:hover{
+    color: #fff;
+    cursor: pointer;
+}
+
+
+.footer-card input[type="email"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-right: none;
+    border-radius: 20px 0 0 20px;
+    outline: none;
+    width: 60%;
+    background:transparent;
+    color: #fff;
+    margin-right: -3px;
+  }
+  
+  .footer-card input[type="email"]::placeholder {
+    color: #999;
+  }
+  
+  .footer-card button {
+    padding: 10px 20px;
+    border-left: none;
+    border: 1px solid transparent;
+    border-radius: 0 20px 20px 0;
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+  }
+  
+  .footer-card button:hover {
+    background-color: #eee;
+  }
+  
+ 

@@ -1,0 +1,91 @@
+#pricing-section{
+    padding: 60px 0;
+    background-color: #f8f9fa;
+}
+
+.padding-top{
+    padding-top: 50px;
+}
+
+.all-boxes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.price-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    background-color: #fff;
+    padding: 30px;
+    width: 320px;
+}
+
+.price{
+    margin-top: -20px !important;
+}
+
+.price-card h3 {
+    font: 400 28px "Work Sans";
+    color: #000;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.price-card .price{
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.main-price{
+    font: 400 48px "Work Sans";
+    color: #007bff;
+    line-height: 1.7;
+}
+
+.per-year{
+    font: 400 16px "Work Sans";
+    color: #cccccc;
+}
+
+.text-left{
+    text-align: left;
+}
+
+.text-center{
+    text-align: center;
+}
+
+
+.li-remove{
+    text-decoration: line-through;
+    color: #dee2e6 !important;
+}
+
+.price-button{
+    font: 400 13px "Work Sans";
+    border-radius: 30px;
+    padding: 10px 30px;
+    color: #fff;
+    background-color: #6c757d;
+    border: none;
+    outline: none;  
+    text-align: center;
+    vertical-align: middle;
+    line-height: 1.5;
+    cursor: pointer;
+}
+
+.price-button:hover{
+    background-color: #5a6268;
+}
+
+.btn-active{
+    background: #007bff;
+}
+
+.btn-active:hover{
+    background: #000;
+}

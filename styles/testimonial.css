@@ -1,0 +1,39 @@
+#testimonial-section{
+    padding: 60px 0;
+}
+
+.quote-container{
+    max-width: 70%;
+    margin: auto;
+}
+
+.quote{
+    font: 400 20px "Work Sans";
+    text-align: center;
+    line-height: 1.7;
+    color: gray;
+    font-style: italic;
+}
+
+.img-container{
+    max-width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding-top: 40px;
+}
+
+.img-container img{
+    width: 50px;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.img-container p{
+    font: 400 14px "Work Sans";
+    text-align: center;
+    line-height: 1.7;
+    color: gray;
+    
+}

@@ -1,0 +1,130 @@
+#contact-section{
+    padding: 60px 0;
+    background-color: #f8f9fa;
+}
+
+.contact-tools{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.tool {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tool i {
+    color: #007bff;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.tool p {
+    font: 400 14px "Work Sans";
+    line-height: 1.5;
+    color: gray;
+    text-align: center;
+}
+
+.tool a {
+    font: 400 14px "Work Sans";
+    color: #007bff;
+    transition: .3s all ease;
+}
+
+.tool a:hover {
+    color: #0056b3;
+}
+
+.form-section{
+    width: 100%;
+    background-color: #fff;
+    padding: 30px 60px;
+}
+
+.form-section h3{
+    font: 400 22px "Work Sans";
+    line-height: 1.2;
+    color: #000;
+    margin-bottom: 48px;
+}
+
+.first-row{
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.first-row .form-group {
+    width: 50%;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8px;
+}
+
+.form-group input{
+    border-radius: 30px;
+    height: 40px;
+    padding: 0.375rem 0.75rem;
+    font: 400 14px "Work Sans";
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    outline: none;
+}
+
+.form-group label{
+    font: 400 15px "Work Sans";
+    color: #000;
+    margin-bottom: 0.5rem;
+
+}
+
+
+.form-group input:focus,textarea:focus{
+    border-color: #007bff;
+}
+
+textarea{
+    border-radius: 30px;
+    height: auto;
+    padding: 0.375rem 0.75rem;
+    font: 400 14px "Work Sans";
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    outline: none;
+}
+
+.form-btn{
+    align-self: flex-start;
+}
+
+.form-btn button{
+    font: 400 16px "Work Sans";
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    font-size: 1rem;
+    line-height: 1.5;
+    cursor: pointer;
+    border-radius: 30px;
+    padding: 10px 30px;
+    margin-top: 5px;
+}
+
+.form-btn button:hover{
+    background-color: #000;
+}

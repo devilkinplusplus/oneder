@@ -2,10 +2,12 @@
     padding: 60px 0;
 }
 
-#about-title {
+.title {
     color: #007bff;
     font: 900 40px "Work Sans";
     text-align: center;
+    margin-bottom: 30px;
+    text-transform: capitalize;
 }
 
 .about-container{
