@@ -8,11 +8,11 @@
 }
 
 .blog-card {
-    width: 30%;
+    width: 280px;
 }
 
 .blog-card img {
-  width: 280px;
+  width: 100%;
 }
 
 .blog-desc h2 {

@@ -19,6 +19,7 @@
 
 .all-people{
     display: flex;
+    justify-content: space-between;
     gap: 25px;
     width: 100%;
     flex-wrap: wrap;

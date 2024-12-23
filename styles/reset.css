@@ -46,7 +46,7 @@ table {
 }
 
 .container {
-	width: 1000px;
+	max-width: 1080px;
 	margin: auto;
 }
 
